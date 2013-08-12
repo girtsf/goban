@@ -1,0 +1,16 @@
+GIT
+  remote: https://github.com/girtsf/rasem
+  revision: 557d6face274d9a50266127eb49a22b0175513e9
+  branch: master
+  specs:
+    rasem (1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rasem (= 1.0)!

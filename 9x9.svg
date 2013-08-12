@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="246mm" height="246mm" version="1.1" viewBox="0 0 246 246"
+  xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="10" width="226" height="226" rx="3" ry="3" style="fill:none;stroke:blue;"/>
+<circle cx="123" cy="123" r="3" style="fill:black;stroke:none;"/>
+<circle cx="79" cy="79" r="3" style="fill:black;stroke:none;"/>
+<circle cx="79" cy="167" r="3" style="fill:black;stroke:none;"/>
+<circle cx="167" cy="79" r="3" style="fill:black;stroke:none;"/>
+<circle cx="167" cy="167" r="3" style="fill:black;stroke:none;"/>
+<line x1="35" y1="35" x2="35" y2="211" style="stroke:black;"/>
+<line x1="35" y1="35" x2="211" y2="35" style="stroke:black;"/>
+<line x1="57" y1="35" x2="57" y2="211" style="stroke:black;"/>
+<line x1="35" y1="57" x2="211" y2="57" style="stroke:black;"/>
+<line x1="79" y1="35" x2="79" y2="211" style="stroke:black;"/>
+<line x1="35" y1="79" x2="211" y2="79" style="stroke:black;"/>
+<line x1="101" y1="35" x2="101" y2="211" style="stroke:black;"/>
+<line x1="35" y1="101" x2="211" y2="101" style="stroke:black;"/>
+<line x1="123" y1="35" x2="123" y2="211" style="stroke:black;"/>
+<line x1="35" y1="123" x2="211" y2="123" style="stroke:black;"/>
+<line x1="145" y1="35" x2="145" y2="211" style="stroke:black;"/>
+<line x1="35" y1="145" x2="211" y2="145" style="stroke:black;"/>
+<line x1="167" y1="35" x2="167" y2="211" style="stroke:black;"/>
+<line x1="35" y1="167" x2="211" y2="167" style="stroke:black;"/>
+<line x1="189" y1="35" x2="189" y2="211" style="stroke:black;"/>
+<line x1="35" y1="189" x2="211" y2="189" style="stroke:black;"/>
+<line x1="211" y1="35" x2="211" y2="211" style="stroke:black;"/>
+<line x1="35" y1="211" x2="211" y2="211" style="stroke:black;"/>
+<rect x="34" y="34" width="178" height="178" rx="0" ry="0" style="fill:none;stroke:black;"/>
+</svg>
