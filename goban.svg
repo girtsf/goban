@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="466mm" height="466mm" version="1.1" viewBox="0 0 466 466"
+  xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="10" width="446" height="446" rx="3" ry="3" style="fill:none;stroke:blue;"/>
+<circle cx="101" cy="101" r="3" style="fill:black;stroke:none;"/>
+<circle cx="101" cy="233" r="3" style="fill:black;stroke:none;"/>
+<circle cx="101" cy="365" r="3" style="fill:black;stroke:none;"/>
+<circle cx="233" cy="101" r="3" style="fill:black;stroke:none;"/>
+<circle cx="233" cy="233" r="3" style="fill:black;stroke:none;"/>
+<circle cx="233" cy="365" r="3" style="fill:black;stroke:none;"/>
+<circle cx="365" cy="101" r="3" style="fill:black;stroke:none;"/>
+<circle cx="365" cy="233" r="3" style="fill:black;stroke:none;"/>
+<circle cx="365" cy="365" r="3" style="fill:black;stroke:none;"/>
+<line x1="35" y1="35" x2="35" y2="431" style="stroke:black;"/>
+<line x1="35" y1="35" x2="431" y2="35" style="stroke:black;"/>
+<line x1="57" y1="35" x2="57" y2="431" style="stroke:black;"/>
+<line x1="35" y1="57" x2="431" y2="57" style="stroke:black;"/>
+<line x1="79" y1="35" x2="79" y2="431" style="stroke:black;"/>
+<line x1="35" y1="79" x2="431" y2="79" style="stroke:black;"/>
+<line x1="101" y1="35" x2="101" y2="431" style="stroke:black;"/>
+<line x1="35" y1="101" x2="431" y2="101" style="stroke:black;"/>
+<line x1="123" y1="35" x2="123" y2="431" style="stroke:black;"/>
+<line x1="35" y1="123" x2="431" y2="123" style="stroke:black;"/>
+<line x1="145" y1="35" x2="145" y2="431" style="stroke:black;"/>
+<line x1="35" y1="145" x2="431" y2="145" style="stroke:black;"/>
+<line x1="167" y1="35" x2="167" y2="431" style="stroke:black;"/>
+<line x1="35" y1="167" x2="431" y2="167" style="stroke:black;"/>
+<line x1="189" y1="35" x2="189" y2="431" style="stroke:black;"/>
+<line x1="35" y1="189" x2="431" y2="189" style="stroke:black;"/>
+<line x1="211" y1="35" x2="211" y2="431" style="stroke:black;"/>
+<line x1="35" y1="211" x2="431" y2="211" style="stroke:black;"/>
+<line x1="233" y1="35" x2="233" y2="431" style="stroke:black;"/>
+<line x1="35" y1="233" x2="431" y2="233" style="stroke:black;"/>
+<line x1="255" y1="35" x2="255" y2="431" style="stroke:black;"/>
+<line x1="35" y1="255" x2="431" y2="255" style="stroke:black;"/>
+<line x1="277" y1="35" x2="277" y2="431" style="stroke:black;"/>
+<line x1="35" y1="277" x2="431" y2="277" style="stroke:black;"/>
+<line x1="299" y1="35" x2="299" y2="431" style="stroke:black;"/>
+<line x1="35" y1="299" x2="431" y2="299" style="stroke:black;"/>
+<line x1="321" y1="35" x2="321" y2="431" style="stroke:black;"/>
+<line x1="35" y1="321" x2="431" y2="321" style="stroke:black;"/>
+<line x1="343" y1="35" x2="343" y2="431" style="stroke:black;"/>
+<line x1="35" y1="343" x2="431" y2="343" style="stroke:black;"/>
+<line x1="365" y1="35" x2="365" y2="431" style="stroke:black;"/>
+<line x1="35" y1="365" x2="431" y2="365" style="stroke:black;"/>
+<line x1="387" y1="35" x2="387" y2="431" style="stroke:black;"/>
+<line x1="35" y1="387" x2="431" y2="387" style="stroke:black;"/>
+<line x1="409" y1="35" x2="409" y2="431" style="stroke:black;"/>
+<line x1="35" y1="409" x2="431" y2="409" style="stroke:black;"/>
+<line x1="431" y1="35" x2="431" y2="431" style="stroke:black;"/>
+<line x1="35" y1="431" x2="431" y2="431" style="stroke:black;"/>
+<rect x="34" y="34" width="398" height="398" rx="0" ry="0" style="fill:none;stroke:black;"/>
+</svg>

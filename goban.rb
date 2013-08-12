@@ -7,8 +7,6 @@ require 'rasem'  # SVG library.  See Gemfile.
 
 # Space between each line.
 GRID_SPACING = 22
-# Number of lines.
-LINE_COUNT = 9
 # Space between the "cut" square and lines.
 BOARD_MARGIN = 25
 # Space between the "cut" square and outer square.
@@ -20,12 +18,12 @@ CORNER_RADIUS = 3
 # Radius for the dots.
 DOT_RADIUS = 3
 
-def calculate_board_size
-  BOARD_MARGIN * 2 + GRID_SPACING * (LINE_COUNT - 1)
+def calculate_board_size(grid_size)
+  BOARD_MARGIN * 2 + GRID_SPACING * (grid_size - 1)
 end
 
-def calculate_image_size
-  calculate_board_size() + (IMAGE_MARGIN * 2)
+def calculate_image_size(grid_size)
+  calculate_board_size(grid_size) + (IMAGE_MARGIN * 2)
 end
 
 def dot(svg, x, y)
@@ -36,11 +34,11 @@ def dot(svg, x, y)
              fill: 'black', stroke: 'none')
 end
 
-def draw_grid_svg
-  image_size = calculate_image_size
+def draw_grid_svg(grid_size)
+  image_size = calculate_image_size(grid_size)
   image_size_mm = sprintf('%dmm' % image_size)
   view_box = sprintf('0 0 %d %d', image_size, image_size)
-  board_size = calculate_board_size
+  board_size = calculate_board_size(grid_size)
   svg = Rasem::SVGImage.new(image_size_mm, image_size_mm,
                             viewbox: view_box ) do
     # Cut square.
@@ -49,15 +47,16 @@ def draw_grid_svg
               fill: 'none', stroke: 'blue')
 
     # Dots.
-    dot(self, LINE_COUNT / 2, LINE_COUNT / 2)
-    [2, LINE_COUNT - 2 - 1].each do |x|
-      [2, LINE_COUNT - 2 - 1].each do |y|
-        dot(self, x, y)
-      end
+    if grid_size == 9
+      dot(self, grid_size / 2, grid_size / 2)  # middle.
+      dots = [2, grid_size - 2 - 1]
+    else
+      dots = [3, grid_size / 2, grid_size - 3 - 1]
     end
+    dots.each { |x| dots.each { |y| dot(self, x, y) } }
 
     # Lines.
-    (0...LINE_COUNT).each do |i|
+    (0...grid_size).each do |i|
       a = IMAGE_MARGIN + BOARD_MARGIN
       b = a + (i * GRID_SPACING)
       line(b, a, b, image_size - a)
@@ -75,6 +74,9 @@ def draw_grid_svg
   svg
 end
 
-File.open('9x9.svg', 'w') do |f|
-  f << draw_grid_svg.output
+grid_size = ARGV.empty? ? 9 : ARGV[0].to_i
+
+File.open('goban.svg', 'w') do |f|
+  svg = draw_grid_svg(grid_size)
+  f << svg.output
 end
