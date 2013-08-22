@@ -1,8 +1,8 @@
 goban
 =====
 
-Goban SVG generator.
+Goban (go board) SVG generator.
 
-Generates an SVG file of a Goban (Go board).
+Technically, a true goban should be rectangular, not square. Oh well.
 
-You will probably need the bundler Gem installed. Then run "bundle install".
+You will probably need the bundler Gem installed ("gem install bundler"). Then run "bundle install".
